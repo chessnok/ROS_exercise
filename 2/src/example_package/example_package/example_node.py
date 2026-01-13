@@ -14,7 +14,7 @@ class SkeletonNode(Node):
         super().__init__('example_node')
         self.publisher_ = self.create_publisher(
             String,
-            'chatter',
+            'chatter_2',
             10
         )
         self.timer_ = self.create_timer(

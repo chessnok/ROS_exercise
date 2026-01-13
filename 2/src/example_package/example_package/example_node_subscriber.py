@@ -8,7 +8,7 @@ class SimpleNode(Node):
     def __init__(self):
         super().__init__('simple_node')
 
-        self.sub = self.create_subscription(String, 'chatter', self.callback_function, 10)  # create subscriber
+        self.sub = self.create_subscription(String, 'chatter_2', self.callback_function, 10)  # create subscriber
 
         self.publish()
 
